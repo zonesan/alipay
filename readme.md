@@ -114,3 +114,4 @@ func NotifyHandle(w http.ResponseWriter, r *http.Request) {
  4.处理订单，在**同步回调页面**和**异步回调页面**调用此SDK，获取该订单ID，在数据库中查出并给相应账号充值（之后发邮件通知等等），一定要注意防止订单**重复充值**，你可以标记订单的active解决此问题。
  
  
+rebot
